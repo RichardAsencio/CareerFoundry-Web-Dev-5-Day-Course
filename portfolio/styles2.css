@@ -1,0 +1,67 @@
+/* p {
+    color: red;
+}
+
+.quote {
+    font-style: italic;
+    color: blue;
+}
+
+.question-text {
+    font-weight: bold;
+    color: orange;
+}
+
+.answer-text {
+    color: green;
+} */
+
+p {
+    color: red;
+}
+
+.quote {
+    color: blue;
+}
+
+.question-text {
+    color: green;
+}
+
+.answer-text {
+    color: orange;
+}
+
+#help-text {
+    color: purple;
+}
+
+
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.grid-boxes {
+    border: solid pink;
+    background-color: aqua;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
